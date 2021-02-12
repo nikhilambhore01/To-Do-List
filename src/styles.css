@@ -1,0 +1,112 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(112, 149, 241);
+  box-sizing: border-box;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px rgb(94, 50, 50);
+  color: #da10c9;
+  cursor: pointer;
+}
+
+.btn1 {
+  box-shadow: 5px 5px 2px rgb(228, 182, 182);
+  width: 100px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: none;
+
+  background-color: rgb(234, 245, 253);
+  color: black;
+  font-size: 15px;
+  box-shadow: 5px 5px 2px rgb(228, 182, 182);
+  cursor: pointer;
+}
+
+.btn2 {
+  color: rgb(105, 236, 17);
+  /* border: 1px solid rgb(15, 15, 15); */
+  border-radius: 50px;
+  border: none;
+  font-size: 15px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: rgb(151, 247, 73);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-size: 15px;
+  border: none;
+}
+
+.btn3 {
+  color: rgb(255, 57, 57);
+  /* border: 1px solid rgb(28, 28, 29); */
+  border-radius: 50px;
+  font-size: 15px;
+  border-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  background-color: rgb(255, 103, 103);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-size: 15px;
+  border-style: none;
+}
+
+h4 {
+  text-shadow: 2px 2px 5px rgb(94, 50, 50);
+  color: rgb(47, 43, 228);
+  cursor: pointer;
+}
+
+.Task_List {
+  height: 512px;
+
+  width: 290px;
+  margin: 8px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid rgb(24, 46, 243);
+  border-radius: 5px;
+  background: #f0eea0;
+  overflow: auto;
+}
+.Task1_List {
+  height: 512px;
+
+  width: 290px;
+  margin: 8px;
+  padding: 5px;
+  border: 2px solid rgb(24, 46, 243);
+  border-radius: 5px;
+  background: #f3a0a0;
+  overflow: auto;
+}
+
+.Task2_List {
+  height: 512px;
+
+  width: 290px;
+  margin: 8px;
+  padding: 5px;
+  border: 2px solid rgb(24, 46, 243);
+  border-radius: 5px;
+  background: #9df19d;
+  overflow: auto;
+}
